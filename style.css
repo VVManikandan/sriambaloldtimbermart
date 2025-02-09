@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    font-size: 30px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ff6347;
+}
+
+/* Main Section Styles */
+main {
+    padding: 40px 20px;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    margin-bottom: 30px;
+}
+
+.hero h2 {
+    font-size: 36px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+/* Blog Post Section */
+.blog-posts {
+    margin-top: 40px;
+}
+
+.blog-posts h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.blog-post {
+    background-color: white;
+    display: flex;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post .post-image {
+    width: 40%;
+    border-radius: 8px 0 0 8px;
+}
+
+.blog-post .post-content {
+    padding: 20px;
+    width: 60%;
+}
+
+.blog-post h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.blog-post .date {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.blog-post p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.blog-post a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid #333;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+.blog-post a:hover {
+    background-color: #333;
+    color: white;
+}
+
+/* Footer Section */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    margin-top: 40px;
+}
+#contact-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #contact-form label {
+    margin-bottom: 5px;
+  }
+  
+  #contact-form input, #contact-form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
